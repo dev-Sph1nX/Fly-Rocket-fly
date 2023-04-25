@@ -333,6 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viper: {fileID: 1535780984}
   offset: {x: 0, y: 0, z: -23.78}
+  smoothFactor: 0.2
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1024917032}
-  globalGameTime: 30
+  globalGameTime: 120
   surchargeViper: {fileID: 1535780982}
   viper: {fileID: 5169114009326160141}
   nextScene: EndCinematic
